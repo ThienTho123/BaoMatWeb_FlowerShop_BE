@@ -1,15 +1,9 @@
 spring:
 
   datasource:
-<<<<<<< HEAD
     url: jdbc:mysql://localhost:3306/flowershop
     username: root
     password: Thientho2205
-=======
-    url: jdbc:mysql://localhost:3307/flowershop
-    username: root
-    password: 123456
->>>>>>> origin/master
     driver-class-name: com.mysql.cj.jdbc.Driver
   mail:
     host: smtp.gmail.com
@@ -41,11 +35,7 @@ application:
       secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
       expiration: 86400000
       refresh-token:
-<<<<<<< HEAD
         expiration: 604800000
-=======
-        expiration: 604800000
-
 server:
   port: 8080
   ssl:
@@ -54,4 +44,3 @@ server:
     key-store-password: 11032003
     key-store-type: PKCS12
     key-alias: localhost
->>>>>>> origin/master

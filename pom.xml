@@ -8,10 +8,6 @@
         <version>3.1.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
     <groupId>com.example</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -62,10 +58,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-<<<<<<< HEAD
-=======
-            <version>3.2.0</version>
->>>>>>> origin/master
+
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -150,10 +143,6 @@
             <version>8.1.0</version>
         </dependency>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
     </dependencies>
 
     <build>
@@ -183,13 +172,6 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
-<<<<<<< HEAD
-
-        </plugins>
-
-    </build>
-
-=======
             <plugin>
                 <groupId>org.owasp</groupId>
                 <artifactId>dependency-check-maven</artifactId>
@@ -207,7 +189,4 @@
             </plugin>
         </plugins>
     </build>
-
-
->>>>>>> origin/master
 </project>
