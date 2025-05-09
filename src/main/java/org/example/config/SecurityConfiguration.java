@@ -67,7 +67,11 @@ public class SecurityConfiguration {
                 .cors(cors -> cors
                         .configurationSource(request -> {
                             CorsConfiguration config = new CorsConfiguration();
+<<<<<<< HEAD
                             config.setAllowedOrigins(List.of("http://localhost:8000"));
+=======
+                            config.setAllowedOrigins(List.of("https://localhost:8000"));
+>>>>>>> origin/master
                             config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
                             config.setAllowedHeaders(List.of("*"));
                             config.setExposedHeaders(List.of("Authorization"));
